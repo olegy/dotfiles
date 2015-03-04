@@ -1,5 +1,5 @@
 # Make vim the default editor.
-export EDITOR='vim';
+export EDITOR='subl';
 
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
@@ -19,3 +19,10 @@ export MANPAGER='less -X';
 
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
+
+# my old
+# export GIT_EDITOR="subl -w"
+# export GEM_EDITOR="subl"
+# export BUNDLER_EDITOR="subl"
+# export LANG=ru_RU.KOI8-R
+# export TERM=xterm-color
